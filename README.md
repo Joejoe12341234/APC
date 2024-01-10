@@ -8,6 +8,25 @@ Network for Simulating Two-Dimensional Fluid Flow Around a Cylinder
 * A Physics Informed Neural Network that approximates a Navier-Stokes solver.
 *  Unit tests and automated testing 
 
+\section{Overview}
+This project contains the following features:
+
+\begin{enumerate}
+    \item An implementation of a modular Navier-Stokes solver using the Finite Difference Method.
+        \begin{enumerate}
+            \item A python class to define arbitrary environments and environmental conditions.
+            \item Modular boundary conditions allowing for many environment types to be investigated.
+            \item Modular and composable objects that allow for complex environments to be modeled and simulated.
+        \end{enumerate}
+    \item A Physics Informed Neural Network that approximates a Navier-Stokes solver.
+        \begin{enumerate}
+            \item A python class to initialize, train, and test the Navier-Stokes PINN model.
+            \item Input-output manager to simplify preparation of training and testing datasets.
+            \item Plotting manager to facilitate in simple visualization of model inference.
+        \end{enumerate}
+    \item Unit tests implemented with ``pytest'' and automated testing using GitHub Actions.
+\end{enumerate}
+
 ## Example Simulation Result
 <img src="Figures/cylinder_example_timesteps/streamline05.png" width="600" height="400">
 
