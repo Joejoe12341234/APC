@@ -1,4 +1,7 @@
 # APC524: Implementing a Navier-Stokes Solver and Physics Informed Neural
+# Graduate course: Software Engineering for Scientific Computing 
+# Department of Applied and Computational Mathematics
+
 Network for Simulating Two-Dimensional Fluid Flow Around a Cylinder
 
 * An implementation of a modular Navier-Stokes solver using the Finite Difference Method.
